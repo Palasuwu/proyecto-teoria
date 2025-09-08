@@ -1,0 +1,50 @@
+// AST de la ER
+digraph {
+	n0 [label="."]
+	n1 [label="."]
+	n2 [label="."]
+	n3 [label="."]
+	n4 [label="."]
+	n5 [label="["]
+	n6 [label=0]
+	n4 -> n5
+	n4 -> n6
+	n7 [label="-"]
+	n3 -> n4
+	n3 -> n7
+	n8 [label=9]
+	n2 -> n3
+	n2 -> n8
+	n9 [label="+"]
+	n10 [label="]"]
+	n9 -> n10
+	n1 -> n2
+	n1 -> n9
+	n11 [label="?"]
+	n12 [label="."]
+	n13 [label="."]
+	n14 [label="."]
+	n15 [label="."]
+	n16 [label="."]
+	n17 [label="\"]
+	n18 [label="["]
+	n16 -> n17
+	n16 -> n18
+	n19 [label=0]
+	n15 -> n16
+	n15 -> n19
+	n20 [label="-"]
+	n14 -> n15
+	n14 -> n20
+	n21 [label=9]
+	n13 -> n14
+	n13 -> n21
+	n22 [label="+"]
+	n23 [label="]"]
+	n22 -> n23
+	n12 -> n13
+	n12 -> n22
+	n11 -> n12
+	n0 -> n1
+	n0 -> n11
+}

@@ -1,0 +1,15 @@
+(a|b)*abb,abbaabb
+(a|b)*,ababab
+a*b*,aaabbb
+(0|1)*00(0|1)*,1001001
+(a|ε)b(a+)c?,abaaac
+(a|b)*a(a|b)(a|b),abaab
+((a|b)*|c*)*,abcabc
+(a|b)*abb(a|b)*,babbaaaa
+x+y*z,xxyyyz
+(a|b)?c,ac
+(a*|b*)*,aaabbb
+(a.b)*,ababab
+(a|b)+,abba
+[0-9]+(\.[0-9]+)?,123.45
+(a|b){3},aba

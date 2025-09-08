@@ -1,0 +1,17 @@
+// DFA (Subconjuntos)
+digraph {
+	rankdir=LR
+	Q0 [label=Q0 fillcolor=lightgrey shape=circle style=filled]
+	Q1 [label=Q1 shape=doublecircle]
+	Q2 [label=Q2 shape=circle]
+	Q3 [label=Q3 shape=circle]
+	Q4 [label=Q4 shape=circle]
+	Q5 [label=Q5 shape=circle]
+	Q0 -> Q5 [label="["]
+	Q1 -> Q1 [label="]"]
+	Q1 -> Q0 [label="\"]
+	Q2 -> Q1 [label="]"]
+	Q3 -> Q2 [label=9]
+	Q4 -> Q3 [label="-"]
+	Q5 -> Q4 [label=0]
+}
